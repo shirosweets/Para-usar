@@ -1,0 +1,6 @@
+void ingresarMatriz (int a[], int tam){ // Funciona correctamente
+        for (int aux=0; aux<tam; aux++){ // Fila
+            printf ("\n Ingrese el elemento %d del arreglo: ", aux);
+            scanf ("%d", &a[aux]);
+        }
+}

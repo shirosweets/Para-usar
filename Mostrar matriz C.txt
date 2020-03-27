@@ -1,0 +1,10 @@
+void mostrarMatriz (int a[], int tam){
+        for (int aux=0; aux<tam; aux++){ // Fila
+            for (int aux2=0; aux2<tam; aux2++){ // Columna
+                printf ("\n Posicion %d, %d: %d", aux, aux2, a[aux]);
+                //printf("Posición [%d][%d]: %d\n", aux, aux2, a[aux][aux2]);
+                printf ("\n");
+                printf ("| %d | ", a[aux]);
+            }
+        }
+}
